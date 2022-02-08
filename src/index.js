@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './main-page';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
+  //StrictMode is a tool for highlighting potential problems in an application. 
   <React.StrictMode>
     <App />
   </React.StrictMode>,
